@@ -1,0 +1,1 @@
+# module implementing algorithm to determine the Size (Resolution) of an Image
