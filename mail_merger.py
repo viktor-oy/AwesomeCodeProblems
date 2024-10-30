@@ -1,0 +1,1 @@
+# module implementing algorithm to mail merger
