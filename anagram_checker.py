@@ -1,0 +1,1 @@
+# module implementing algorithm to verify whether two strings are anagrams
