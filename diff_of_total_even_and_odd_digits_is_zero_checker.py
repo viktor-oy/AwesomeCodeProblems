@@ -1,0 +1,1 @@
+# script engineered to verify whether the difference between Sums of Odd and Even Digits is 0
