@@ -12,5 +12,3 @@ def sumOfSeries(n):
 # Process: Driver Function
 n = int(input("Enter the number:"))
 print(sumOfSeries(n))
-
-# Process: Code Contributed by Mohit Gupta_OMG <(0_o)>
