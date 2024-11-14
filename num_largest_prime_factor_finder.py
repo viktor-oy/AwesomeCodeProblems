@@ -30,8 +30,6 @@ def maxPrimeFactors (n):
 	return int(maxPrime) 
 
 # Process: Driver code to test above function
-n = 15
+n = int(input("Enter the number:"))
 print(maxPrimeFactors(n)) 
 
-n = 25698751364526
-print(maxPrimeFactors(n)) 
