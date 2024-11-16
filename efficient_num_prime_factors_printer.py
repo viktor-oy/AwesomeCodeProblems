@@ -2,8 +2,7 @@
 
 import math
 
-# helper procedure to print all prime factors of
-# Process: a given number n
+# helper procedure to print all prime factors of a given number n
 def primeFactors(n):
 	
 	# Output the number of two's that divide n
@@ -15,13 +14,12 @@ def primeFactors(n):
 	# Process: so a skip of 2 ( i = i + 2) can be used
 	for i in range(3,int(math.sqrt(n))+1,2):
 		
-		# Process: while i divides n , print i ad divide n
+		# Process: while i divides n, print i ad divide n
 		while n % i== 0:
 			print(i)
 			n = n // i
 			
-	# Process: Condition if n is a prime
-	# Process: number greater than 2
+	# Process: Condition if n is a prime number greater than 2
 	if n > 2:
 		print(n)
 		
