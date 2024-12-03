@@ -1,6 +1,6 @@
 # module implementing algorithm to verify whether two strings are anagrams
-str1 = "Race"
-str2 = "Care"
+str1 = input('Enter the first string')
+str2 = input('Enter the second string')
 
 # Transform both the strings into lowercase
 str1 = str1.lower()
