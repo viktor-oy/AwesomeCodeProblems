@@ -17,34 +17,8 @@ def test(n):
     return 0
 
 # initialize target integer 'n' to the variable
-n = 123456789
+n = int(input('Enter the number:'))
 
-# Output a message indicating the operation to be performed
-print("Original Number:", n)
+print("\nProduct of the odd digits in the said number, or 0 if there aren't any:")
 
-# Output a message indicating the operation to be performed
-print("Product of the odd digits in the said number, or 0 if there aren't any:")
-# Output the result of the test function applied to 'n'
-print(test(n))
-
-# initialize secondary integer 'n' to the variable
-n = 2468
-
-# Output a message indicating the operation to be performed
-print("\nOriginal Number:", n)
-
-# Output a message indicating the operation to be performed
-print("Product of the odd digits in the said number, or 0 if there aren't any:")
-# Output the result of the test function applied to 'n'
-print(test(n))
-
-# initialize secondary integer 'n' to the variable
-n = 13579
-
-# Output a message indicating the operation to be performed
-print("\nOriginal Number:", n)
-
-# Output a message indicating the operation to be performed
-print("Product of the odd digits in the said number, or 0 if there aren't any:")
-# Output the result of the test function applied to 'n'
 print(test(n))
