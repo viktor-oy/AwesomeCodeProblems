@@ -1,6 +1,7 @@
-# Process: License: https://bit.ly/3oLErEI
 
 # Process: Define a function named 'test' that takes a list of numbers 'nums' as input
+from .utils.input_utils import Input_Utils
+
 def test(nums):
     # Construct a set 's' from the given list 'nums'
     s = set(nums)
@@ -15,22 +16,8 @@ def test(nums):
 # initialize target list of numbers 'nums' to the variable
 nums = [1, -4, 6, 7, 4]
 
-# Output the original list of numbers 'nums'
-print("Original List:")
-print(nums)
-
-# Output a message indicating the operation to be performed
-print("Indices of two numbers that sum to 0 in the said list:")
-
-# Output the result of the test function applied to the 'nums' list
-print(test(nums))
-
-# initialize secondary list of numbers 'nums' to the variable
-nums = [1232, -20352, 12547, 12440, 741, 341, 525, 20352, 91, 20]
-
-# Output the original list of numbers 'nums'
-print("\nOriginal List:")
-print(nums)
+# initialize target list of side lengths 'sides' to the variable
+nums = InputUtilities.get_number_list_interactively({"confirmText":"Inputed List:"})
 
 # Output a message indicating the operation to be performed
 print("Indices of two numbers that sum to 0 in the said list:")
