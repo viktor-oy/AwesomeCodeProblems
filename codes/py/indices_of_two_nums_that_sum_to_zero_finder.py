@@ -13,9 +13,6 @@ def test(nums):
             # Process: If found, return the indices of 'i' and its negation in the original list 'nums'
             return [nums.index(i), nums.index(-i)]
 
-# initialize target list of numbers 'nums' to the variable
-nums = [1, -4, 6, 7, 4]
-
 # initialize target list of side lengths 'sides' to the variable
 nums = InputUtilities.get_number_list_interactively({"confirmText":"Inputed List:"})
 
