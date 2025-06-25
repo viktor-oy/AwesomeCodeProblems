@@ -3,7 +3,7 @@
 # Process: string of vowels
 vowels = 'aeiou'
 
-ip_str = 'Hello, have you tried our tutorial section yet?'
+ip_str = input('Enter the string: ')
 
 # Process: make it suitable for caseless comparisions
 ip_str = ip_str.casefold()
